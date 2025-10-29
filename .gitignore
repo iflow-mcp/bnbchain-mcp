@@ -174,4 +174,34 @@ dist
 # Finder (MacOS) folder config
 .DS_Store
 
-.cursor/
+.cursor/level.log
+serverConfig.json
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+npm-debug.log*
+*.tar.gz
+.cache/
+.parcel-cache/
+.next/
+out/
+.nuxt/
