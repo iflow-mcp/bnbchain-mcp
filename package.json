@@ -1,6 +1,6 @@
 {
   "name": "@iflow-mcp/bnbchain-mcp",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "A MCP server for BNB Chain that supports BSC, opBNB, Greenfield, and other popular EVM-compatible networks.",
   "scripts": {
     "start": "node dist/index.js",
