@@ -1,13 +1,13 @@
 {
   "name": "@iflow-mcp/bnbchain-mcp",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "A MCP server for BNB Chain that supports BSC, opBNB, Greenfield, and other popular EVM-compatible networks.",
   "scripts": {
     "start": "node dist/index.js",
     "start:sse": "npm run start --sse",
     "dev:sse": "bun run --watch src/index.ts --sse",
     "dev": "bun run --watch src/index.ts",
-    "build": "bun build src/*.ts --outdir dist --target node --format cjs",
+    "build": "npx tsc",
     "test": "npx @modelcontextprotocol/inspector bun dev",
     "e2e": "LOGLEVEL=debug bun test e2e --coverage --timeout 50000",
     "prepare": "husky",
@@ -45,6 +45,7 @@
     "@types/node": "^20.0.0",
     "husky": "^9.1.7",
     "prettier": "3.2.4",
+    "tsconfig-paths": "^4.2.0",
     "typescript": "^5.0.0"
   },
   "license": "MIT",
