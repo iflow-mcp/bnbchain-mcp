@@ -5,7 +5,7 @@ import cors from "cors"
 import express from "express"
 import type { Request, Response } from "express"
 
-import Logger from "@/utils/logger"
+import Logger from "../utils/logger"
 import { startServer } from "./base"
 
 export const startSSEServer = async () => {
