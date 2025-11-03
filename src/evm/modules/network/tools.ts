@@ -2,9 +2,9 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js"
 import { normalize } from "viem/ens"
 import { z } from "zod"
 
-import { getRpcUrl, getSupportedNetworks } from "@/evm/chains.js"
-import * as services from "@/evm/services/index.js"
-import { mcpToolRes } from "@/utils/helper"
+import { getRpcUrl, getSupportedNetworks } from "../../chains.js"
+import * as services from "../../services/index.js"
+import { mcpToolRes } from "../../../utils/helper"
 import { defaultNetworkParam } from "../common/types.js"
 
 export function registerNetworkTools(server: McpServer) {

@@ -2,9 +2,9 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js"
 import type { Address, Hex } from "viem"
 import { z } from "zod"
 
-import { defaultNetworkParam } from "@/evm/modules/common/types.js"
-import * as services from "@/evm/services/index.js"
-import { mcpToolRes } from "@/utils/helper"
+import { defaultNetworkParam } from "../common/types.js"
+import * as services from "../../services/index.js"
+import { mcpToolRes } from "../../../utils/helper"
 
 export function registerContractTools(server: McpServer) {
   // Check if address is contract

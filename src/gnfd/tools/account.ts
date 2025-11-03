@@ -2,9 +2,9 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js"
 import type { Hex } from "viem"
 import { z } from "zod"
 
-import * as services from "@/gnfd/services"
-import { getAddressFromPrivateKey } from "@/gnfd/services"
-import { mcpToolRes } from "@/utils/helper"
+import * as services from "../services"
+import { getAddressFromPrivateKey } from "../services"
+import { mcpToolRes } from "../../utils/helper"
 import { networkParam, privateKeyParam } from "./common"
 
 export function registerAccountTools(server: McpServer) {

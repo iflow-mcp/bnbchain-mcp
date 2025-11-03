@@ -1,6 +1,6 @@
 import { formatUnits, getContract, parseUnits, type Address } from "viem"
 
-import Logger from "@/utils/logger.js"
+import Logger from "../../utils/logger.js"
 import { ERC20_ABI, ERC20_BYTECODE } from "./abi/erc20.js"
 import { ERC721_ABI } from "./abi/erc721.js"
 import { ERC1155_ABI } from "./abi/erc1155.js"

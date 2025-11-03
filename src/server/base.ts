@@ -1,8 +1,8 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js"
 
-import { registerEVM } from "@/evm/index.js"
-import { registerGnfd } from "@/gnfd/index.js"
-import Logger from "@/utils/logger.js"
+import { registerEVM } from "../evm/index.js"
+import { registerGnfd } from "../gnfd/index.js"
+import Logger from "../utils/logger.js"
 
 // Create and start the MCP server
 export const startServer = () => {

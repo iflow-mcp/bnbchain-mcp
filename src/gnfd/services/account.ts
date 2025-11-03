@@ -1,7 +1,7 @@
 import type { Hex } from "viem"
 import { privateKeyToAccount } from "viem/accounts"
 
-import Logger from "@/utils/logger"
+import Logger from "../../utils/logger"
 import { getClient } from "./client"
 
 export const getAddressFromPrivateKey = (privateKey: Hex) => {

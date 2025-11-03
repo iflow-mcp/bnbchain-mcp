@@ -16,7 +16,7 @@ import { ObjectInfo } from "@bnb-chain/greenfield-js-sdk/dist/esm/types/sp/Commo
 import { NodeAdapterReedSolomon } from "@bnb-chain/reed-solomon/node.adapter"
 import type { Hex } from "viem"
 
-import Logger from "@/utils/logger"
+import Logger from "../../utils/logger"
 import { getMimeType, response, type ApiResponse } from "../util"
 import { getAccount } from "./account"
 import { createBucket } from "./bucket"

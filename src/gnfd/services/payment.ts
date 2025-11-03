@@ -2,7 +2,7 @@ import { StreamAccountStatus } from "@bnb-chain/greenfield-cosmos-types/greenfie
 import { Long } from "@bnb-chain/greenfield-js-sdk"
 import { Hex, parseEther } from "viem"
 
-import { selectSp } from "@/gnfd/services/sp"
+import { selectSp } from "./sp"
 import { ApiResponse, response } from "../util"
 import { getAccount } from "./account"
 import { getClient } from "./client"

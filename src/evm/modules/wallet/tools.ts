@@ -2,8 +2,8 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js"
 import type { Hex } from "viem"
 import { z } from "zod"
 
-import * as services from "@/evm/services/index.js"
-import { mcpToolRes } from "@/utils/helper"
+import * as services from "../../services/index.js"
+import { mcpToolRes } from "../../../utils/helper"
 import { defaultNetworkParam, privateKeyParam } from "../common/types"
 
 export function registerWalletTools(server: McpServer) {

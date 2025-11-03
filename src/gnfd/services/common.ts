@@ -2,7 +2,7 @@ import { BaseAccount } from "@bnb-chain/greenfield-cosmos-types/cosmos/auth/v1be
 import { type TxResponse } from "@bnb-chain/greenfield-js-sdk"
 import type { Hex } from "viem"
 
-import Logger from "@/utils/logger"
+import Logger from "../../utils/logger"
 import { response, type ApiResponse } from "../util"
 
 /**

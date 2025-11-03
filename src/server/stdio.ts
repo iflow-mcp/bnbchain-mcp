@@ -2,7 +2,7 @@ import "dotenv/config"
 
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js"
 
-import Logger from "@/utils/logger"
+import Logger from "../utils/logger"
 import { startServer } from "./base"
 
 // Start the server
